@@ -9,7 +9,7 @@ MasterMemo is a web-based note-taking platform designed to help you keep track o
 
 ## Live Demo
 
-Experience the power of MasterMemo by visiting the [Live Website](https://mastermemo-website.example.com).
+Experience the power of MasterMemo by visiting the [Live Website](https://memomaster.onrender.com).
 
 ## Key Features
 
@@ -39,7 +39,7 @@ MasterMemo is built using the following technologies and modules:
 
 ## Getting Started
 
-Ready to boost your productivity with MasterMemo? Visit our [Live Website](https://mastermemo-website.example.com) to start creating and organizing your notes.
+Ready to boost your productivity with MasterMemo? Visit our [Live Website](https://memomaster.onrender.com). to start creating and organizing your notes.
 
 ## License
 
@@ -48,7 +48,7 @@ This project is licensed under the Natsasion License. For detailed information, 
 Learned from [Raddy](https://www.youtube.com/watch?v=BDo1lgaZuII).
 ## Contact
 
-If you have any questions, feedback, or need assistance, please don't hesitate to reach out to us at [natsasion.sri@gmail.com](mailto:natsasion.sri@gmail.com).
+If you have any questions, feedback, or need assistance, please don't hesitate to reach out to us at [Live Website](https://memomaster.onrender.com).
 
 MasterMemo - The Ultimate Note-Taking Companion!
 
