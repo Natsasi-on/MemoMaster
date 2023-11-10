@@ -1,0 +1,77 @@
+<section class="container">
+  <div class="d-flex justify-content-between">
+    <h2 class="p-2 lh-base shared-title flex-grow-5 ">Hello,
+      <%= userName %>
+    </h2>
+    <a href="/new-note" class="p-2 px-3 btn fw-bold h-25 lh-base rounded-pill signup-btn mt-3 mb-3">&#43;
+      Create New Note
+    </a>
+  </div>
+
+
+  <div class="d-flex justify-content-around notes-container flex-wrap">
+    <% if (notes.length > 0) {
+        for (var i = 0; i < notes.length; i++) { %>
+    <a href="/notes/item/<%= notes[i]._id %>" class="link-note">
+      <div class="p-3 rounded-2 note-box">
+        <h4>
+          <%= notes[i].title %>
+        </h4>
+        <p>
+          <%= notes[i].body %>
+        </p>
+      </div>
+    </a>
+    <% }
+    } else { %>
+    <h1>Let's start with your first note!</h1>
+    <% } %>
+    <!-- 1 note -->
+    <!-- <div class="p-3 rounded-2 note-box">
+                            <h4>Title</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus vel nemo saepe,
+                                corrupti quam
+                                similique ab. Provident, ea illo blanditiis assumenda rerum placeat officiis est fugiat
+                                beatae, sint
+                                velit dolorem.</p>
+                        </div> -->
+
+  </div>
+  <% if (notes.length > 0) { %>
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center mt-5">
+      <% if (current == 1) { %>
+      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+      <% } else { %>
+      <li class="page-item"><a class="page-link" href="/notes">First</a></li>
+      <% } %>
+      <% var i = (Number(current) > 5 ? Number(current) - 4 : 1) %>
+
+      <% if (i !== 1) { %>
+      <li class="page-item"><a class="page-link" href="#">...</a></li>
+      <% } %>
+
+      <% for (; i <= (Number(current) + 4) && i <= pages; i++) { %>
+      <% if (i == current) { %>
+      <li class="page-item"><a class="page-link" href="#">
+          <%= i %>
+        </a></li>
+      <% } else { %>
+      <li class="page-item"><a class="page-link" href="/notes/?page=<%= i %>">
+          <%= i %>
+        </a></li>
+      <% } %>
+      <% if (i == Number(current) + 4 && i < pages) { %>
+      <li class="page-item"><a class="page-link" href="#">...</a>
+      </li>
+      <% } %>
+      <% } %>
+      <% if (current == pages) { %>
+      <li class="page-item disabled"><a class="page-link">Last</a></li>
+      <% } else { %>
+      <li class="page-item"><a href="/notes/?page=<%= pages %>" class="page-link">Last</a></li>
+      <% } %>
+    </ul>
+  </nav>
+  <% } %>
+</section>

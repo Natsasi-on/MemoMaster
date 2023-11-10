@@ -1,0 +1,30 @@
+<section class="container">
+  <div class="mybox w-75 ">
+
+    <p class="title col">Search Results</p>
+
+    <% if(searchResults != '') { %>
+    <% searchResults.forEach(function (note, index) { %>
+    <a href="/notes/item/<%= note._id %>" class="link-note">
+      <div class="p-3 rounded-2 note-box search-box">
+        <h4><%= note.title %></h4>
+        <p><%= note.body %></p>
+      </div>
+
+    </a>
+    <% }) %>
+    <% } else { %>
+    <p>No items found.</p>
+    <% } %>
+
+  </div>
+  <!-- <div class="p-3 rounded-2 note-box search-box">
+            <h4>Title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus vel nemo saepe, corrupti quam
+                similique ab. Provident, ea illo blanditiis assumenda rerum placeat officiis est fugiat beatae, sint
+                velit dolorem.</p>
+        </div>-->
+
+  </div>
+
+</section>

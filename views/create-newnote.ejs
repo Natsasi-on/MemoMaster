@@ -1,0 +1,23 @@
+<section class="container">
+    <div class="mybox w-75">
+        <p class="title">Create New Note</p>
+        <form action="/new-note" method="POST">
+            <div class="form-group ">
+                <input type="text" class="w-100 p-3 newnote-input" required name="title" placeholder="Enter your name">
+            </div>
+            <div class="form-group mb-3">
+                <textarea type="email" class="w-100 p-3 newnote-input" rows="8" id="noteMessage" name="body" required
+                    placeholder="....."></textarea>
+            </div>
+            <div class="row justify-content-end">
+                <div class="row w-25">
+                    <button type="submit" class="col p-3 px-5 btn fw-bold mb-4 lh-base rounded-pill signup-btn ">
+                        Add Note &#43;
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</section>
