@@ -1,19 +1,24 @@
-<h1 align="center">MasterMemo - Your Personal Note-Taking Website</h1>
+<h1 align="center">MemoMaster - Your Personal Note-Taking Website</h1>
 <p align="center">
-    Welcome to MasterMemo, your one-stop solution for creating, managing, and organizing your notes. Never forget important information again!
+    Welcome to MemoMaster, your one-stop solution for creating, managing, and organizing your notes. Never forget important information again!
+</p>
+<p align="center">
+     Welcome to MemoMaster, your one-stop solution for creating, managing, and organizing your notes. Never forget important information again!
+    <br>
+    <a href="https://memomaster.onrender.com/">[ Live Portfolio ]</a>
 </p>
 
 ## Overview
 
-MasterMemo is a web-based note-taking platform designed to help you keep track of your thoughts, and important information. With a user-friendly interface, Google account integration, and a host of features, it's the ultimate digital notebook.
+MemoMaster is a web-based note-taking platform designed to help you keep track of your thoughts, and important information. With a user-friendly interface, Google account integration, and a host of features, it's the ultimate digital notebook.
 
 ## Live Demo
 
-Experience the power of MasterMemo by visiting the [Live Website](https://memomaster.onrender.com).
+Experience the power of MemoMaster by visiting the [Live Website](https://memomaster.onrender.com).
 
 ## Key Features
 
-Explore the core features that make MasterMemo stand out:
+Explore the core features that make MemoMaster stand out:
 
 - **Google Account Integration**: Log in with your Google account for a seamless and secure experience.
 
@@ -23,7 +28,7 @@ Explore the core features that make MasterMemo stand out:
 
 ## Technologies and Modules Used
 
-MasterMemo is built using the following technologies and modules:
+MemoMaster is built using the following technologies and modules:
 
 - **Node.js and Express**: The server is powered by Node.js and Express for responsive and reliable performance.
 
@@ -39,7 +44,7 @@ MasterMemo is built using the following technologies and modules:
 
 ## Getting Started
 
-Ready to boost your productivity with MasterMemo? Visit our [Live Website](https://memomaster.onrender.com). to start creating and organizing your notes.
+Ready to boost your productivity with MemoMaster? Visit our [Live Website](https://memomaster.onrender.com). to start creating and organizing your notes.
 
 ## License
 
@@ -50,5 +55,5 @@ Learned from [Raddy](https://www.youtube.com/watch?v=BDo1lgaZuII).
 
 If you have any questions, feedback, or need assistance, please don't hesitate to reach out to us at [Live Website](https://memomaster.onrender.com).
 
-MasterMemo - The Ultimate Note-Taking Companion!
+MemoMaster - The Ultimate Note-Taking Companion!
 
