@@ -1,8 +1,5 @@
 <h1 align="center">MemoMaster - Your Personal Note-Taking Website</h1>
 <p align="center">
-    Welcome to MemoMaster, your one-stop solution for creating, managing, and organizing your notes. Never forget important information again!
-</p>
-<p align="center">
      Welcome to MemoMaster, your one-stop solution for creating, managing, and organizing your notes. Never forget important information again!
     <br>
     <a href="https://memomaster.onrender.com/">[ Live Portfolio ]</a>
