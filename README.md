@@ -2,7 +2,7 @@
 <p align="center">
      Welcome to MemoMaster, your one-stop solution for creating, managing, and organizing your notes. Never forget important information again!
     <br>
-    <a href="https://memomaster.onrender.com/">[ Live Portfolio ]</a>
+    <a href="https://memomaster.onrender.com/">[ Live Website ]</a>
 </p>
 
 ## Overview
